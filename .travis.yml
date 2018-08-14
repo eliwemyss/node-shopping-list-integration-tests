@@ -1,2 +1,8 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key: 7b007115-93fb-45fd-ad49-48ec92017fc9
+  app: node-shopping-list-integration-tests
+  on:
+    repo: eliwemyss/node-shopping-list-integration-tests
